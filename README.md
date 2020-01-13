@@ -1,3 +1,9 @@
+***Recommendation***
+
+- Our GAN based work for facial attribute editing - https://github.com/LynnHo/AttGAN-Tensorflow.
+
+---
+
 ---
 ### Frameworks
 1. [GAN](https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf), [DCGAN](https://arxiv.org/abs/1511.06434)
@@ -69,6 +75,8 @@
 1. [DRGAN](https://arxiv.org/abs/1705.07215) - Vanilla GAN with gradient penalty
 1. [Cramér GAN](https://arxiv.org/abs/1705.10743) - Cramér Distance
 1. [Regularized GAN](https://arxiv.org/abs/1705.09367)
+1. [CT-GAN](http://arxiv.org/abs/1803.01541)
+1. [Varying k-Lipschitz Constraint for Generative Adversarial Networks](http://arxiv.org/abs/1803.06107)
 
 
 ---
@@ -84,12 +92,13 @@
 1. [AGE](https://arxiv.org/abs/1704.02304)
 
 
---- 
+---
 ### Semi-supervised Learning
 1. [CatGAN](https://arxiv.org/abs/1511.06390)
 1. [SGAN](https://arxiv.org/abs/1606.01583) - D outputs [CLASS-1, CLASS-2, . . . CLASS-N, FAKE]
 1. [Improved GAN](https://arxiv.org/abs/1606.03498)
 1. [Triple-GAN](https://arxiv.org/abs/1703.02291)
+1. [CT-GAN](http://arxiv.org/abs/1803.01541)
 
 
 ---
@@ -104,18 +113,31 @@
 ---
 ### Applications
 
+#### Data Augmentation
+1. [Adversarial Generation of Training Examples for Vehicle License Plate Recognition](https://arxiv.org/abs/1707.03124)
+
+#### Domain Adaptation
+1. [Unsupervised Pixel-Level Domain Adaptation with Generative Adversarial Networks](https://arxiv.org/abs/1612.05424)
+1. [DTN](https://arxiv.org/abs/1611.02200)
+1. [UNIT](arxiv.org/abs/1703.00848)
+1. [CoGAN](http://papers.nips.cc/paper/6544-coupled-generative-adversarial-networks)
+
+#### Image Denoising
+1. [Deep Semantic Face Deblurring](http://arxiv.org/abs/1803.03345)
+
 #### Image-to-Image Translation
 ##### Unpaired
-1. [DTN](https://arxiv.org/abs/1611.02200)
-1. [UNIT](https://arxiv.org/abs/1703.00848)
 1. [CoGAN](http://papers.nips.cc/paper/6544-coupled-generative-adversarial-networks)
+1. [DTN](https://arxiv.org/abs/1611.02200)
 1. [CycleGAN](https://arxiv.org/abs/1703.10593), [DiscoGAN](https://arxiv.org/abs/1703.05192), [DualGAN](https://arxiv.org/abs/1704.02510)
+1. [UNIT](https://arxiv.org/abs/1703.00848)
 1. [Face Transfer with Generative Adversarial Network](http://arxiv.org/abs/1710.06090)
 1. [XGAN](http://arxiv.org/abs/1711.05139) - Semantic consistency
 ##### Paired
-1. [Scribbler](https://arxiv.org/abs/1612.00835)
 1. [pix2pix/PatchGAN](https://arxiv.org/abs/1611.07004)
+1. [Scribbler](https://arxiv.org/abs/1612.00835)
 1. [PAN](https://arxiv.org/abs/1706.09138) - Perceptual adversarial loss
+1. [Cross-View Image Synthesis using Conditional GANs](http://arxiv.org/abs/1710.06090)
 
 #### Inpainting
 1. [Context Encoder](http://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Pathak_Context_Encoders_Feature_CVPR_2016_paper.html)
@@ -124,36 +146,29 @@
 #### Super-Resolution
 1. [SRGAN](https://arxiv.org/abs/1609.04802)
 
-#### Domain Adaptation
-1. [Unsupervised Pixel-Level Domain Adaptation with Generative Adversarial Networks](https://arxiv.org/abs/1612.05424)
-1. [DTN](https://arxiv.org/abs/1611.02200)
-1. [UNIT](arxiv.org/abs/1703.00848)
-1. [CoGAN](http://papers.nips.cc/paper/6544-coupled-generative-adversarial-networks)
-
 #### Text-to-Image Synthesis
 1. [GAN-INT-CLS](http://proceedings.mlr.press/v48/reed16.pdf) <!-- TODO -->
 1. [GAWWN](http://papers.nips.cc/paper/6111-learning-what-and-where-to-draw) <!-- TODO -->
 1. [StackGAN](https://arxiv.org/abs/1612.03242)
 
-#### Data Augmentation
-1. [Adversarial Generation of Training Examples for Vehicle License Plate Recognition](https://arxiv.org/abs/1707.03124)
-
 #### Face Editing
 1. [VAE/GAN](https://arxiv.org/abs/1512.09300) - Visual attribute vectors
-1. [CNAI](https://arxiv.org/abs/1608.06434)
+1. [IcGAN](https://arxiv.org/abs/1611.06355)
 1. [DIAT](https://arxiv.org/abs/1610.05586)
 1. [Learning Residual Images for Face Attribute Manipulation](https://arxiv.org/abs/1612.05363)
-1. [IcGAN](https://arxiv.org/abs/1611.06355)
-1. [Age-cGAN](https://arxiv.org/abs/1702.01983)
+1. [DistanceGAN](https://arxiv.org/abs/1706.00826)
 1. [CFGAN](http://openaccess.thecvf.com/content_cvpr_2017/html/Kaneko_Generative_Attribute_Controller_CVPR_2017_paper.html)
-1. [SL-GAN](https://arxiv.org/abs/1704.02166)
-1. [Fader Networks](https://arxiv.org/abs/1706.00409)
+1. [Age-cGAN](https://arxiv.org/abs/1702.01983)
 1. [UNIT](arxiv.org/abs/1703.00848)
-1. [GeneGAN](https://arxiv.org/abs/1705.04932) - Object transfiguration 
+1. [SL-GAN](https://arxiv.org/abs/1704.02166)
 1. [IAN](https://arxiv.org/abs/1609.07093)
 1. [Neural Face Editing with Intrinsic Image Disentangling](http://arxiv.org/abs/1704.04131)
+1. [GeneGAN](https://arxiv.org/abs/1705.04932) - Object transfiguration
+1. [Fader Networks](https://arxiv.org/abs/1706.00409)
 1. [Unsupervised Visual Attribute Transfer with Reconfigurable Generative Adversarial Networks](http://arxiv.org/abs/1707.09798)
 1. [ExprGAN](http://arxiv.org/abs/1709.03842)
+1. [StarGAN](http://arxiv.org/abs/1711.09020)
+1. [GLCA-GAN](http://arxiv.org/abs/1801.08390)
 
 #### Face Frontalization/Profiling
 1. [DR-GAN](http://cvlab.cse.msu.edu/pdfs/Tran_Yin_Liu_CVPR2017.pdf)
@@ -167,14 +182,11 @@
 
 
 ---
-### Projects
-1. [Create Anime Characters with A.I. !](http://make.girls.moe/technical_report.pdf)
-
-
----
 ### Survey
 1. [Generative Adversarial Networks: An Overview](http://arxiv.org/abs/1710.07035)
 1. [How Generative Adversarial Nets and its variants Work](http://arxiv.org/abs/1711.05914)
+1. [Comparative Study on Generative Adversarial Networks](http://arxiv.org/abs/1801.04271)
+1. [An Introduction to Image Synthesis with Generative Adversarial Nets](http://arxiv.org/abs/1803.04469)
 
 
 ---
@@ -185,3 +197,11 @@
 1. [AM-GAN](https://arxiv.org/abs/1703.02000)
 1. [DeLiGAN](https://arxiv.org/abs/1706.02071) - Mixture Gaussian prior distribution
 1. [TTUR](https://arxiv.org/abs/1706.08500)
+
+
+---
+### Datasets
+1. [MNIST](https://pdfs.semanticscholar.org/eea7/573f64552685cdf8d144ec446c5fff1405fc.pdf)
+1. [CIFAR10/CIFAR100](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.222.9220&rep=rep1&type=pdf)
+1. [SVHN](https://research.google.com/pubs/pub37648.html)
+1. [CelebA](http://openaccess.thecvf.com/content_iccv_2015/papers/Liu_Deep_Learning_Face_ICCV_2015_paper.pdf)
